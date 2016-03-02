@@ -40,9 +40,9 @@ this.leaderboardFunc = function(startplek,people,currentplace)
       var td3 = document.createElement('td');
       if( plek == currentplace)
       {
-        td1.style.background="Yellow"
-        td2.style.background="Yellow"
-        td3.style.background="Yellow"
+        td1.style.background="Yellow";
+        td2.style.background="Yellow";
+        td3.style.background="Yellow";
       }
       td1.innerHTML=plek++;
       td2.innerHTML=people[i].name;
