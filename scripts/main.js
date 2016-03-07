@@ -27,7 +27,6 @@ angular.module("Leaderboard")
 
 leaderboardFunction = function()
 {
-
   leaderService.leaderboardFunc(3,people,40);
 
 }
